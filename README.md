@@ -154,7 +154,7 @@ Access `http://localhost:8000` in your browser.
 
 **Example Prompt:**
 
-> "Write a comprehensive article about developing Google Apps Script (GAS)... create a new Google Document, insert the content, convert to PDF, and send an email to `tanaike@hotmail.com`."
+> Write a comprehensive article about developing Google Apps Script (GAS) using generative AI. The article should include an introductory overview, formatted lists for best practices, and a table comparing different AI-assisted coding techniques. Once generated, please create a new Google Document, insert the content, convert the Google Document to a PDF file, and send an email to `tanaike@hotmail.com` including the shareable URL of the PDF file by giving a suitable title and email body.
 
 **Outcome:**
 The agent seamlessly handles multiple tools (Drive, Docs, Gmail) without TSI errors.
