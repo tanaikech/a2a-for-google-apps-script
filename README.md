@@ -1,6 +1,6 @@
 <a name="top"></a>
 
-# A2A for Google Apps Script
+# Overcoming Tool Space Interference: Bridging Google ADK and A2A SDK via Google Apps Script
 
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENCE)
 
