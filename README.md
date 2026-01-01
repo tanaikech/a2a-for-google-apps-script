@@ -196,13 +196,7 @@ This server can also be used as a remote MCP server with the Gemini CLI. Add thi
 
 [Tanaike](https://tanaikech.github.io/about/)
 
-If you have any questions or comments, feel free to contact me.
-
-<a name="donate"></a>
-
-## Donate
-
-<a href="https://www.buymeacoffee.com/tanaikech" target="_blank"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=tanaikech&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
+[Donate](https://tanaikech.github.io/donate/)
 
 <a name="history"></a>
 
