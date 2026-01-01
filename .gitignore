@@ -1,0 +1,6 @@
+.env
+.gemini/
+a2a-client/.env
+a2a-client/package-lock.json
+a2a-client/node_modules/
+a2a-client/test/

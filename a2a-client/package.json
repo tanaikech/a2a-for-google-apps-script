@@ -1,0 +1,22 @@
+{
+  "name": "a2a-for-google-apps-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sample.js",
+  "scripts": {
+    "test1": "node sample.js",
+    "test2": "npx @google/adk-devtools web adk_sample.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@a2a-js/sdk": "^0.3.7",
+    "@google/adk": "^0.2.1",
+    "@google/adk-devtools": "^0.2.1",
+    "dotenv": "^17.2.3",
+    "ora": "^9.0.0",
+    "uuid": "^13.0.0"
+  }
+}

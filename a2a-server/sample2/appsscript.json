@@ -1,0 +1,71 @@
+{
+  "timeZone": "Asia/Tokyo",
+  "dependencies": {
+    "enabledAdvancedServices": [
+      {
+        "userSymbol": "Sheets",
+        "serviceId": "sheets",
+        "version": "v4"
+      },
+      {
+        "userSymbol": "Docs",
+        "serviceId": "docs",
+        "version": "v1"
+      },
+      {
+        "userSymbol": "Slides",
+        "serviceId": "slides",
+        "version": "v1"
+      },
+      {
+        "userSymbol": "Calendar",
+        "serviceId": "calendar",
+        "version": "v3"
+      },
+      {
+        "userSymbol": "Classroom",
+        "serviceId": "classroom",
+        "version": "v1"
+      },
+      {
+        "userSymbol": "People",
+        "serviceId": "peopleapi",
+        "version": "v1"
+      },
+      {
+        "userSymbol": "DriveActivity",
+        "serviceId": "driveactivity",
+        "version": "v2"
+      },
+      {
+        "userSymbol": "AnalyticsAdmin",
+        "serviceId": "analyticsadmin",
+        "version": "v1beta"
+      },
+      {
+        "userSymbol": "AnalyticsData",
+        "serviceId": "analyticsdata",
+        "version": "v1beta"
+      },
+      {
+        "userSymbol": "Drive",
+        "serviceId": "drive",
+        "version": "v3"
+      }
+    ],
+    "libraries": [
+      {
+        "userSymbol": "MCPA2Aserver",
+        "libraryId": "1xRlK6KPhqp374qAyumrtVXXNEtb7iZ_rD7yRuYxccQuYieKCCao9VuB6",
+        "version": "0",
+        "developmentMode": true
+      }
+    ]
+  },
+  "webapp": {
+    "access": "ANYONE_ANONYMOUS",
+    "executeAs": "USER_DEPLOYING"
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8"
+}
