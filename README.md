@@ -84,14 +84,16 @@ You can deploy the sample A2A server (containing 160 tools) to your Google Drive
 
 3.  **Configuration**
     Update the `object` variable in the GAS script:
+
     ```javascript
     const object = {
       apiKey: "YOUR_GEMINI_API_KEY",
-      model: "models/gemini-2.0-flash-exp",
+      model: "models/gemini-3-flash-preview",
       accessKey: "sample", // Optional security key
       webAppsUrl: "YOUR_WEB_APP_URL",
     };
     ```
+
     _Note: Redeploy the Web App after updating the code._
 
 ### 2. Client-Side Setup (Node.js)
