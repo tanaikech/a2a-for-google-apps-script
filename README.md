@@ -184,6 +184,10 @@ This server can also be used as a remote MCP server with the Gemini CLI. Add thi
 }
 ```
 
+## MCPA2Aserver
+
+The repository of MCPA2Aserver is [https://github.com/tanaikech/MCPA2Aserver-GAS-Library](https://github.com/tanaikech/MCPA2Aserver-GAS-Library).
+
 ---
 
 <a name="license"></a>
