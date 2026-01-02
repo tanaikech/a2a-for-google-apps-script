@@ -111,7 +111,7 @@ You can deploy the sample A2A server (containing 160 tools) to your Google Drive
 
     ```text
     GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
-    GEMINI_MODEL="gemini-1.5-flash"
+    GEMINI_MODEL="models/gemini-3-flash-preview"
     A2A_WEB_APPS_URL="https://script.google.com/macros/s/###/exec?accessKey=sample"
     ```
 
