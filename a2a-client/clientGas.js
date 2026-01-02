@@ -105,8 +105,14 @@ export class ClientGAS {
     try {
       client = await factory.createFromUrl(a2aUrl);
     } finally {
-      // Always restore the original fetch, even if creation fails
-      globalThis.fetch = originalFetch;
+      // Always restore the original fetch, even if creation fails. Continuation, the access token is used in the request header.
+      globalThis.fetch = async (input, init = {}) => {
+        // Add the Authorization header to every request
+        init.headers = { ...init.headers, authorization: `Bearer ${token}` };
+        return await originalFetch(input, init);
+      };
+
+      // globalThis.fetch = originalFetch; // If you want to use the original fetch without the access token, use this.
     }
 
     return client;
